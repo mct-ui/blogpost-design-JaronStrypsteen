@@ -6,13 +6,13 @@
 @font-face {
     font-family: "Inter UI web";
     font-weight: 400;
-    src: url(../fonts/Inter-UI-Regular.woff2) format("woff2");
+    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Inter UI web";
     font-weight: 700;
-    src: url(../fonts/Inter-UI-Bold.woff2) format("woff2");
+    src: url("../fonts/Inter-UI-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -49,9 +49,12 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Inter UI web", "Helvetica Neue", Helvetica, arial, sans-serif;
+    /* font-family: "Inter UI web", "Helvetica Neue", Helvetica, arial, sans-serif; */
+    font-family: "Droid Serif web", georgia, serif;
     color: #5C6366;
     padding: 48px 24px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -90,12 +93,14 @@ h1,
 h2,
 h3 {
     color: #17181A;
+    font-family: "Inter UI web", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 
 h1 {
     font-size: 36px;
     line-height: 40px;
     margin: 0 0 24px;
+    font-family: 'Playfair Display', serif;
 }
 
 h2 {
